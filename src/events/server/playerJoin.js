@@ -9,6 +9,6 @@ module.exports = {
       logJoin(user);
       console.log(`${user.username}(${user.id}) Joined the room`);
     }
-    bot.message.send(`${user.username} Joined the room`)
+    bot.message.send(`${user.username} a rejoin la salle`)
   }
 };
