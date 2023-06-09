@@ -15,7 +15,7 @@ module.exports = {
       bot.move.walk(myPosition.x, myPosition.y, myPosition.z, myPosition.facing);
 
     } catch (error) {
-      bot.whisper.send(user.id, `Something went wrong, please contact @iHsein`)
+      bot.whisper.send(user.id, `qlq chose neva pas, contact @Grim.mdr`)
       console.error(error)
     }
   },
