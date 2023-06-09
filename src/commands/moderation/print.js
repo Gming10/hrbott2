@@ -32,7 +32,7 @@ module.exports = {
       bot.message.send(msg);
 
     } catch (error) {
-      bot.whisper.send(user.id, `Something went wrong, please contact @iHsein`)
+      bot.whisper.send(user.id, `qlq chose ne va pas, contacte @Grim.mdr`)
       console.error(error)
     }
   },
