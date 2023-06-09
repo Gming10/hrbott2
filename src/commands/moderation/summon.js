@@ -27,7 +27,7 @@ module.exports = {
       bot.player.teleport(userId, myPosition.x, myPosition.y, myPosition.z, myPosition.facing);
 
     } catch (error) {
-      bot.whisper.send(user.id, `Something went wrong, please contact @iHsein`)
+      bot.whisper.send(user.id, `qlq chose ne va pas, contacte @Grim.mdr`)
       console.error(error)
     }
   },
