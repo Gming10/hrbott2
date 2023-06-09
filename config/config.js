@@ -1,20 +1,20 @@
 module.exports = {
   config: {
     // The bot prefix;
-    prefix: '/',
+    prefix: '!',
     // The bot ID, if you are not sure how to get that, start the bot with loggers.ready set to True
-    botId: 'change-me',
+    botId: '6483216914e85be37c898ed5',
     // You bot name.
-    botName: 'change-me',
+    botName: 'GrimBot',
     // The owner of the bot.
-    ownerName: 'change-me',
+    ownerName: 'Grim.mdr',
     // You room name (optional)
-    roomName: 'change-me',
+    roomName: 'en construction',
     // The coordinates you want the bot to teleport to on start.
     coordinates: {
-      x: 1.5,
-      y: 1,
-      z: 8.5,
+      x: 16,
+      y: 0,
+      z: 12,
       facing: "FrontRight"
     }
   },
@@ -96,13 +96,13 @@ module.exports = {
 
   permissions: {
     // You can add as many IDs as you want, for example: ['id1', 'id2'].
-    owners: ['55bb64735531104341039ca8', '5bd2e1d1c65f538af3b0b65f'],
-    moderators: ['55bb64735531104341039ca8', '5bd2e1d1c65f538af3b0b65f']
+    owners: ['644cfac3472da861d3cdfa39'],
+    moderators: ['644cfac3472da861d3cdfa39']
   },
   authorization: {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
     // To obtain your room ID, go to the game and navigate to the top right corner where the player list is displayed. Click on "Share this room" and copy the ID.
-    room: 'change-me',
-    token: 'change-me'
+    room: '6471bdece5c8cf6cf36191ac',
+    token: '51376f53de1cdfe1de91abf3b3cac44d54b44871f459f44f79fa7d96f46395d9'
   }
 }
