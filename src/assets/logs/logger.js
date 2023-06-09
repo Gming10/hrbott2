@@ -24,7 +24,7 @@ function logJoin(user) {
   const playerName = user.username;
   const playerID = user.id;
 
-  const logMessage = `[${playerName}](${playerID}): Joined the room at: (${timestamp})\n`;
+  const logMessage = `[${playerName}](${playerID}): a rejoin la salle à: (${timestamp})\n`;
 
   fs.appendFile(filePath, logMessage, (err) => {
     if (err) {
@@ -39,7 +39,7 @@ function logLeave(user) {
   const playerName = user.username;
   const playerID = user.id;
 
-  const logMessage = `[${playerName}](${playerID}): Left the room at: (${timestamp})\n`;
+  const logMessage = `[${playerName}](${playerID}): a quitté la salle à: (${timestamp})\n`;
 
   fs.appendFile(filePath, logMessage, (err) => {
     if (err) {
