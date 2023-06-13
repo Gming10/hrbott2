@@ -9,7 +9,7 @@ module.exports = {
     // The owner of the bot.
     ownerName: 'Grim.mdr',
     // You room name (optional)
-    roomName: 'en construction',
+    roomName: 'La Grimerie',
     // The coordinates you want the bot to teleport to on start.
     coordinates: {
       x: 16,
@@ -102,7 +102,7 @@ module.exports = {
   authorization: {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
     // To obtain your room ID, go to the game and navigate to the top right corner where the player list is displayed. Click on "Share this room" and copy the ID.
-    room: '',
+    room: '6471bdece5c8cf6cf36191ac',
     token: '51376f53de1cdfe1de91abf3b3cac44d54b44871f459f44f79fa7d96f46395d9'
   }
 }
