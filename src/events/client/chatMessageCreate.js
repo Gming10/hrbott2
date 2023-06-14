@@ -14,8 +14,6 @@ module.exports = {
       commandHandler(bot, user, message.slice(prefix.length));
     } else {
       return;
-  }
-    if (message.startswith(".laugh")) {
-    await self.highrise.send_emote("emote-laughing", user.id)
     } 
+  }
 };
