@@ -28,6 +28,9 @@ module.exports = {
         'emote-pose1',
         'emote-pose8',
         'emote-pose7'
+        'dance-russian'
+        'emote-energyball'
+        'dance-blackpink'
       ]
       const randomEmote = emotes[Math.floor(Math.random() * emotes.length)];
       const option = args[0];
