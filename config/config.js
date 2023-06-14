@@ -3,13 +3,13 @@ module.exports = {
     // The bot prefix;
     prefix: '!',
     // The bot ID, if you are not sure how to get that, start the bot with loggers.ready set to True
-    botId: '6483216914e85be37c898ed5',
+    botId: '',
     // You bot name.
-    botName: 'GrimBot',
+    botName: 'Mister.999',
     // The owner of the bot.
-    ownerName: 'Grim.mdr',
+    ownerName: 'MashleDM',
     // You room name (optional)
-    roomName: 'La Grimerie',
+    roomName: 'Trouve ton ame soeur',
     // The coordinates you want the bot to teleport to on start.
     coordinates: {
       x: 16,
@@ -50,7 +50,7 @@ module.exports = {
     // Log all the player's movements (disabled)
     movements: false,
     // Log all the reactions in the terminal (disabled)
-    reactions: false
+    reactions: true
   },
 
   emojis: {
@@ -102,7 +102,7 @@ module.exports = {
   authorization: {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
     // To obtain your room ID, go to the game and navigate to the top right corner where the player list is displayed. Click on "Share this room" and copy the ID.
-    room: '6471bdece5c8cf6cf36191ac',
-    token: '51376f53de1cdfe1de91abf3b3cac44d54b44871f459f44f79fa7d96f46395d9'
+    room: '6485e92eafc51d9f6f5a104e',
+    token: '6f8395b9faa996e17d8de38cba87e41effb356f5bb81281b79e7d71f642fe0e'
   }
 }
