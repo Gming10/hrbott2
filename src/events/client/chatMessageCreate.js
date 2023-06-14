@@ -16,6 +16,9 @@ module.exports = {
       return;
     } 
   }
+  module.exports = {
+  name: "chatMessageCreate",
+  once: false,
   async def on_chat(self, user: User, message: str) -> None:
     try:
         if message.startswith('!'):
@@ -28,8 +31,7 @@ module.exports = {
             if emote_name is not None:
                 for roomUser, _ in roomUsers:
                     await self.highrise.send_emote(emote_name, roomUser.id)
-            else:
-                return
-    except Exception as e:
-        print(f"An exception occurred: {e}")
+            else {
+                return;
+              }
 };
