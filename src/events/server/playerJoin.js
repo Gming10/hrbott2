@@ -7,8 +7,8 @@ module.exports = {
   async execute(bot, user) {
     if (bot.logs.join) {
       logJoin(user);
-      console.log(`${user.username}(${user.id}) a rejoin la salle`);
+      console.log(`${user.username}(${user.id}) Bienvenue à vous faites comme chez vous`);
     }
-    bot.message.send(`${user.username} a rejoin la salle`)
+    bot.message.send(`${user.username} Bienvenue à vous faites comme chez vous`)
   }
 };
