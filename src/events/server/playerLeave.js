@@ -7,8 +7,8 @@ module.exports = {
   async execute(bot, user) {
     if (bot.logs.join) {
       logLeave(user);
-      console.log(`${user.username}(${user.id}) s'est barré`);
+      console.log(`Au revoir ${user.username}(${user.id})`);
     }
-    bot.message.send(`${user.username} s'est barré`)
+    bot.message.send(`Au revoir ${user.username}`)
   }
 };
