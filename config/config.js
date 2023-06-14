@@ -50,7 +50,7 @@ module.exports = {
     // Log all the player's movements (disabled)
     movements: false,
     // Log all the reactions in the terminal (disabled)
-    reactions: true
+    reactions: false
   },
 
   emojis: {
