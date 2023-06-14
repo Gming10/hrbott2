@@ -84,7 +84,5 @@ module.exports = {
       console.error(error);
       bot.whisper.send(user.id, `Something went wrong please contact @iHsein`)
     }
-    if message.startswith("/laugh"):
-    await self.highrise.send_emote("emote-laughing", user.id)
   },
 };
