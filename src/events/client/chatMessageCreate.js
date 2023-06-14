@@ -15,5 +15,7 @@ module.exports = {
     } else {
       return;
     }
+  if message.startswith("/laugh"):
+    await self.highrise.send_emote("emote-laughing", user.id)
   }
 };
