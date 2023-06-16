@@ -5,7 +5,7 @@ module.exports = {
     // The bot ID, if you are not sure how to get that, start the bot with loggers.ready set to True
     botId: '',
     // You bot name.
-    botName: 'Mister.999',
+    botName: 'Nina.999',
     // The owner of the bot.
     ownerName: 'MashleDM',
     // You room name (optional)
@@ -103,6 +103,6 @@ module.exports = {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
     // To obtain your room ID, go to the game and navigate to the top right corner where the player list is displayed. Click on "Share this room" and copy the ID.
     room: '6485e92eafc51d9f6f5a104e',
-    token: '6f8395b9faa996e17d8de38cba87e41effb3c56f5bb81281b79e7d71f642fe0e'
+    token: 'df6c0bb862341b6bbdc1fefd3fc337355d570503a360640369c66d32d3501cc0'
   }
 }
