@@ -9,7 +9,7 @@ module.exports = {
     // The owner of the bot.
     ownerName: '22h23',
     // You room name (optional)
-    roomName: 'Trouve ton ame soeur',
+    roomName: 'Find a Lover',
     // The coordinates you want the bot to teleport to on start.
     coordinates: {
       x: 16,
