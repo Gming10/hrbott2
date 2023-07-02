@@ -5,9 +5,9 @@ module.exports = {
     // The bot ID, if you are not sure how to get that, start the bot with loggers.ready set to True
     botId: '',
     // You bot name.
-    botName: 'Nina.999',
+    botName: 'Bodyguard',
     // The owner of the bot.
-    ownerName: 'MashleDM',
+    ownerName: '22h23',
     // You room name (optional)
     roomName: 'Trouve ton ame soeur',
     // The coordinates you want the bot to teleport to on start.
@@ -96,13 +96,13 @@ module.exports = {
 
   permissions: {
     // You can add as many IDs as you want, for example: ['id1', 'id2'].
-    owners: ['644cfac3472da861d3cdfa39','647fcbe084ee35b8a476eb34'],
-    moderators: ['644cfac3472da861d3cdfa39','647fcbe084ee35b8a476eb34']
+    owners: ['644cfac3472da861d3cdfa39',''],
+    moderators: ['644cfac3472da861d3cdfa39','']
   },
   authorization: {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
     // To obtain your room ID, go to the game and navigate to the top right corner where the player list is displayed. Click on "Share this room" and copy the ID.
-    room: '6485e92eafc51d9f6f5a104e',
-    token: 'df6c0bb862341b6bbdc1fefd3fc337355d570503a360640369c66d32d3501cc0'
+    room: '64543774d9c8901fa141ed3f',
+    token: '5e0f9eeb5714be073c8f64c49a4a78a86654f55b81b876727476ae2c87fe484c'
   }
 }
