@@ -97,7 +97,7 @@ module.exports = {
   permissions: {
     // You can add as many IDs as you want, for example: ['id1', 'id2'].
     owners: ['644cfac3472da861d3cdfa39','640132247c2e03fe4ee042ea'],
-    moderators: ['644cfac3472da861d3cdfa39','640132247c2e03fe4ee042ea','64b43d282612a4f8addee8c1','637fc7d657b5e2d01b0eee25']
+    moderators: ['644cfac3472da861d3cdfa39','640132247c2e03fe4ee042ea','64b43d282612a4f8addee8c1','637fc7d657b5e2d01b0eee25','5f31beb8bd0f7276cdef2f0b']
   },
   authorization: {
     // To obtain your token, visit https://highrise.game/ and log in. Then, go to the settings and create a new bot. Accept the terms and generate a token.
