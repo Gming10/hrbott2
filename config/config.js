@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     // The bot prefix;
-    prefix: '!',
+    prefix: '.',
     // The bot ID, if you are not sure how to get that, start the bot with loggers.ready set to True
     botId: '',
     // You bot name.
