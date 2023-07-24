@@ -15,6 +15,22 @@
         "print",
         "teleport"
       ]
+     },
+    {
+      "user_id": "",
+      "username": "",
+      "permissions": [
+        "print",
+        "teleport"
+      ]
+     },
+    {
+      "user_id": "",
+      "username": "",
+      "permissions": [
+        "print",
+        "teleport"
+      ]
     }
   ]
 }
