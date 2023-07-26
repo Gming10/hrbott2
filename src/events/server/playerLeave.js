@@ -9,6 +9,6 @@ module.exports = {
       logLeave(user);
       console.log(`Au revoir ${user.username}(${user.id})`);
     }
-    bot.message.send(`Au revoir ${user.username} !`)
+    bot.message.send(``)
   }
 };
